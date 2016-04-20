@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}koa-i18n-sample{% endblock %}</title>
+  <style>
+    html, body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #E9ECF5;
+    }
+    #content {
+      margin: 40px auto;
+      padding: 10px;
+      width: 60vw;
+      height: 40vh;
+      background-color: #73BFB8;
+      color: #eaeaea;
+      font-size: 4em;
+    }
+  </style>
+</head>
+<body>
+  <section id="content">
+    {% block content %}
+      <p>Missing content!</p>
+    {% endblock %}
+  </section>
+</body>
+</html>
