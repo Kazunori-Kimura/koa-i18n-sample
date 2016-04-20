@@ -28,7 +28,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -85,4 +86,5 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-
+# i18n temporary files
+*.tmp
